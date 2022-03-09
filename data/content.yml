@@ -1,0 +1,133 @@
+########################## hero area ##########################
+hero:
+  title: "Sergio Solé"
+
+  # animated text loop
+  occupations:
+    - 'Python Scripting'
+    - 'Programación Web'
+    - 'Integrador Domótico KNX'
+
+  # hero background image
+  bg_image: 'images/background.jpg'
+  # optional mobile breakpoint background
+  mobile_bg_image: 'images/gus_small.jpg'
+
+########################### About ##################################
+about:
+  enable: true
+  image: 'images/profile_big.jpg'
+  title: 'SOBRE MI '
+  content: Estudiante de Ingeniería Mecatrónica en la Universidad de Zaragoza.
+    Actualmente realizando un intercambio en Mälardalens Universitet en Västerås, Suecia.
+    Con muchas ganas de expandir mi conocimiento en las nuevas tecnologías.
+    Gran capacidad de aprendizaje y adaptación a nuevos entornos. Gran interés en tecnologías
+    digitales emergentes, automatización y aprendizaje supervisado. Soy una persona
+    polivalente y de mente abierta con mucha motivación para desarrollar mis habilidades
+    en el ámbito de la ingeniería y la tecnología.
+
+  button:
+    enable: true
+    label: 'CURRICULUM'
+    link: '/files/CV_Sergio_Tech_ES.pdf'
+    icon: 'fa-download'
+
+###########################3 Experience ##############################
+experience:
+  enable: true
+  title: 'EXPERIENCIA'
+  experience_list:
+    - name: Estudiante de Ingeniería Mecatrónica
+      company: Universidad de Zaragoza
+      duration: '2018 - Presente'
+      content: Estudiante de último año de Ingeniería Mecatrónica en la EUPLA.
+
+    - name: Desarrollador TI y soporte informático
+      company: Placotec S.A.
+      duration: '2020 - Presente'
+      content: Trabajos de mantenimiento de servicios web, soporte técnico y redes.
+
+    - name: Integrador Domótico KNX Partner Avanzado
+      company: Asociación KNX
+      duration: '2020 - 2021'
+      content: Certificación como integrador domótico. Certificación básica y
+        avanzada en invierno de 2020
+
+############################### Skill #################################
+skill:
+  enable: true
+  title: 'Habilidades'
+  showpercent: false
+  skill_list:
+    - name: 'Python3'
+      percentage: '87%'
+
+    - name: 'C Programming'
+      percentage: '82%'
+
+    - name: 'Arduino y similares'
+      percentage: '72%'
+
+    - name: 'Diseño Web'
+      percentage: '95%'
+
+######################### funfacts #############################3
+funfacts:
+  enable: false
+  funfacts_list:
+    - name: 'CUPS PER DAY'
+      image: 'images/icons/coffee.png'
+      count: '2'
+
+    - name: 'SITES BUILT'
+      image: 'images/icons/web-development.png'
+      count: '25'
+
+    - name: 'USELESS ROW OF ICONS'
+      image: 'images/icons/happy.png'
+      count: '1'
+
+############################# portfolio ################################
+portfolio:
+  enable: true
+  title: 'PROYECTOS ANTERIORES'
+  portfolio_list:
+    - name: Cloud.SergioSole.Dev
+      image: 'images/portfolio/nextcloud-2.png'
+      url: https://cloud.sergiosole.dev/
+      description: Como proyecto personal y para desarrollar mis habilidades con
+       servicios web, mantengo desde principios de 2021 una instancia de Nextcloud
+       propia. El servidor sincroniza mis datos de trabajo en ordenador y móvil
+       además de otros servicios como mi gestor de contraseñas, contactos y
+       calendario (Mediante WebDAV), presupuesto (sincronizando los archivos de
+       GNUCash) y tareas (Kanban). La instancian esta alojada en un servidor de
+       Debian utilizando el servicio de hosting Linode.
+
+    - name: Sitio Web Personal
+      image: 'images/portfolio/nextcloud-1.png'
+      url: https://www.sergiosole.dev
+      description: El sitio web sirve de perfil público y como expositor de
+        proyectos anteriores. Se trata de una web estática generada con Hugo.
+        El tema ha sido modificado en parte para adaptarse a mis necesidades y
+        puede encontrarse en mi GitHub.
+
+    - name: Captura de movimiento utilizando OpenCV y Blender
+      image: 'images/portfolio/nextcloud-1.png'
+      url: https://github.com/FalkenStein42/face-expressions
+      description: El proyecto consistía en mover de manera rudimentaria un
+        modelo 3D hecho en Blender utilizando expresiones faciales. Para facilitar
+        la captura el programa buscaba una serie de marcadores físicos que se
+        colocaban en la cara. La parte mas importante del desarrollo son las
+        funciones que intentaban encontrar el siguiente punto a partir del primero.
+        El desarrollo del proyecto tuvo lugar durante el verano de 2020
+
+    - name: Experiencia en prototipado e Impresión 3D
+      image: 'images/portfolio/nextcloud-1.png'
+      description: Empezando a principios de 2017 con el montaje y calibrado de
+        una impresora Prusa i2, con firmware marling y siguiendo con mi colaboración
+        como membro de la asociación ICAI3D en la Universidad Pontificia de Comillas
+        hasta 2018, donde nuestra responsabilidad consistía en verificar, preparar
+        e imprimir los prototipos de los alumnos de máster utilizando impresoras
+        Ultimaker 2. Actualmente imprimo prototipos con una Prusa i3 para FDM y
+        una Photon Mini para SLA, para proyectos propios. Para modelado tengo
+        experiencia utilizando Solid Edge, CAD y Blender 3D.
