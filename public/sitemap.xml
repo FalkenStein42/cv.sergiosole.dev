@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>cv.sergiosole.dev/categories/</loc>
+    <loc>sergiosole.dev/categories/</loc>
   </url><url>
-    <loc>cv.sergiosole.dev/</loc>
+    <loc>sergiosole.dev/</loc>
   </url><url>
-    <loc>cv.sergiosole.dev/tags/</loc>
+    <loc>sergiosole.dev/tags/</loc>
   </url>
 </urlset>

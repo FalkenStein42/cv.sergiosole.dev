@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "cv.sergiosole.dev"
+baseURL = "sergiosole.dev"
 title = "Sergio Sole - CV"
 theme = "port-hugo"
 

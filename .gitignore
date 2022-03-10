@@ -1,2 +1,4 @@
 node_modules
 resources
+render.bat
+run_server.bat
